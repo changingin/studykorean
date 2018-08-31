@@ -14,13 +14,14 @@
 
 <body>
   
-  <input id="bp" type="button" value="블루" onclick="
-    if(document.querySelector('#bp').value === '블루')
-   { document.querySelector('body').style.backgroundColor = 'powderblue';
-     document.querySelector('#bp').value = '핑크' ;}
+  <input  type="button" value="블루" onclick="
+    var target = document.querySelector('body');
+    if(this.value === '블루')
+   { target.style.backgroundColor = 'powderblue';
+     this.value = '핑크' ;}
     else {
-     document.querySelector('body').style.backgroundColor = 'hotpink';
-     document.querySelector('#bp').value = '블루' ;} ">                                             
+     target.style.backgroundColor = 'hotpink';
+     this.value = '블루' ;} ">                                             
                                        
   <div class="a">
     
