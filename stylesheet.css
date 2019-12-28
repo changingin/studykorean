@@ -1,4 +1,4 @@
- a { 
+     a { 
         margin:10px;
       }
       h1 {
@@ -6,5 +6,9 @@
         font-size:50px;
         text-align:center;
       }
+     caption{
+ background-color:yellowgreen;     
+}
       img{
         width:250px; height:300px;
+         }
