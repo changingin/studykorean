@@ -2,25 +2,32 @@
 <html>
   <head>
     <style>
-      
+      @media(max-width:800px){
+         #studymap{
+      column-count:0;
+      }
+      }
+      #studymap{
+      column-count:3;
+      }
+      #header{
+        color:powderblue;
+        font-size:50px;
+        text-align:center;
+        }
+        
       a { 
         margin:10px;
          
        }
-      h1 {
-        color:powderblue;
-        font-size:50px;
-        text-align:center;
-          
-         }
+      
      figure{
         
        display:inline-block;
       }
-      #studymap{
-      column-count:3;
       
-          }
+      
+          
       img{
         width:250px; height:300px;
       
@@ -37,7 +44,9 @@
   </head>
 
   <body>
+    <div id="header">
     <h1> 피터 한국어 </h1>
+    </div>
     
     <div id="studymap">
     <figure>
